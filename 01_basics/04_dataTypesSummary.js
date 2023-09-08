@@ -25,3 +25,30 @@ let myObj = {
 const myFunction = function(){
     console.log("hello Everyone");
 }
+
+
+//****************************************
+
+// Stack(primitive) -> copy
+
+let myYoutubename = "youtubesrioz"
+
+let anothername = myYoutubename
+
+anothername = "amanop"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+// heap (non-primitive) -> reference
+
+let userone = {
+    email: "aman@gmail.com",
+    upi: "abc@ybl"
+}
+
+let usertwo = userone
+usertwo.email = "mdaman@gmial.com"
+
+console.log(userone);
+console.log(usertwo);
