@@ -48,6 +48,10 @@ const users = [
 users[1].email
 // console.log(tinderUser);
 
+// keys gives key from object in single array 
+// and value gives value from the object in sigle array
+// entries give both in single array
+
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
